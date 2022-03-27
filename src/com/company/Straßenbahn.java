@@ -5,6 +5,7 @@ public class Straßenbahn {
     welcheHaltestelle(1);
     }
     public static void welcheHaltestelle(int haltestelle) {
+        //gotta initialize i before making the for loop, otherwise it doesnt recognise it
         int i = haltestelle;
         for (i = haltestelle; haltestelle <= 6; haltestelle++) {
             if (haltestelle == 1) {

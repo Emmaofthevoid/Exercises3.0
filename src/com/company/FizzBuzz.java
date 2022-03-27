@@ -20,5 +20,6 @@ public class FizzBuzz {
         }
     }
     public static String richtigeString (int zahl) {
+        return " ";
     }
 }
